@@ -13,7 +13,7 @@ import NavbarAdmin from "./components/NavbarAdmin";
 import ManageAdminPage from "./pages/ManageAdminPage";
 import ManageCategoryPage from "./pages/ManageCategoryPage";
 import ManageFoodPage from "./pages/ManageFoodPage";
-import ManageOrderPage from "./pages/ManageorderPage";
+import ManageOrderPage from "./pages/ManageOrderPage";
 import Login from "./pages/LoginPage";
 
 function App() {
