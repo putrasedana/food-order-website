@@ -64,6 +64,16 @@ const NavbarAdmin = () => {
             >
               Order
             </NavLink>
+            <NavLink
+              to="/login"
+              className={({ isActive }) =>
+                isActive
+                  ? "px-3 py-2 rounded-md font-medium text-green-600"
+                  : "px-3 py-2 rounded-md font-medium"
+              }
+            >
+              Logout
+            </NavLink>
           </div>
 
           <div className="md:hidden flex items-center">
