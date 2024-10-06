@@ -61,6 +61,16 @@ const Navbar = () => {
             >
               About
             </NavLink>
+            <NavLink
+              to="/login"
+              className={({ isActive }) =>
+                isActive
+                  ? "px-3 py-2 rounded-md font-medium text-green-600 "
+                  : "px-3 py-2 rounded-md font-medium bg-green-500 hover:bg-green-600"
+              }
+            >
+              Login Admin
+            </NavLink>
           </div>
 
           <div className="md:hidden flex items-center">
@@ -111,6 +121,15 @@ const Navbar = () => {
             }
           >
             About
+          </NavLink>
+          <NavLink
+            to="/login"
+            onClick={toggleMenu}
+            className={({ isActive }) =>
+              isActive ? "block px-3 py-4 bg-gray-700" : "block px-3 py-4"
+            }
+          >
+            Login Admin
           </NavLink>
         </div>
       )}
