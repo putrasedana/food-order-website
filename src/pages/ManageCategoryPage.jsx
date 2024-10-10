@@ -1,26 +1,36 @@
 import FoodTable from "../components/FoodTable";
-import img from "../images/nusa_penida.jpg";
+import pasta from "../images/spagetti.jpg";
+import burger from "../images/big-burger.jpg";
+import beverage from "../images/beverage.jpg";
+import pizza from "../images/pizza-2.jpg";
 
 const ManageCategoryPage = () => {
   const categories = [
     {
       id: 1,
       title: "Pizza",
-      image: img,
+      image: pizza,
       featured: true,
       active: true,
     },
     {
       id: 2,
       title: "Burger",
-      image: img,
+      image: burger,
       featured: false,
       active: true,
     },
     {
       id: 3,
-      title: "Salad",
-      image: img,
+      title: "Pasta",
+      image: pasta,
+      featured: true,
+      active: false,
+    },
+    {
+      id: 4,
+      title: "Beverages",
+      image: beverage,
       featured: true,
       active: false,
     },

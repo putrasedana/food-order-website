@@ -1,5 +1,6 @@
 import React from "react";
-import fruitsImage from "../images/nusa_penida.jpg";
+import restaurant from "../images/restaurant.jpg";
+import restaurant2 from "../images/restaurant2.jpg";
 
 const AboutPage = () => {
   return (
@@ -8,7 +9,7 @@ const AboutPage = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         <div className="bg-gray-300 w-full h-64 flex items-center rounded-xl justify-center">
           <img
-            src={fruitsImage}
+            src={restaurant}
             alt="example"
             className="w-full h-full object-cover rounded-xl"
           />
@@ -33,7 +34,7 @@ const AboutPage = () => {
 
         <div className="bg-gray-300 w-full h-64 flex items-center rounded-xl justify-center">
           <img
-            src={fruitsImage}
+            src={restaurant2}
             alt="example"
             className="w-full h-full object-cover rounded-xl"
           />

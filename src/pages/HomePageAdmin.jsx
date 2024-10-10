@@ -1,5 +1,8 @@
 import React from "react";
-import imageUrl from "../images/nusa_penida.jpg";
+import restaurant from "../images/restaurant.jpg";
+import restaurant2 from "../images/restaurant2.jpg";
+import foodImg from "../images/food-img.jpg";
+import image from "../images/nusa_penida.jpg";
 
 const Dashboard = () => {
   return (
@@ -8,45 +11,45 @@ const Dashboard = () => {
       <div className="grid md:grid-cols-2 gap-6">
         <div
           className="relative h-48 bg-cover bg-center bg-no-repeat shadow-md rounded-lg p-6 text-center"
-          style={{ backgroundImage: `url(${imageUrl})` }}
+          style={{ backgroundImage: `url(${restaurant})` }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
           <div className="relative z-10 flex items-center flex-col h-full justify-center">
-            <p className="text-3xl font-bold text-white">4</p>
-            <p className="text-gray-200">Categories</p>
+            <p className="text-4xl font-bold text-white">4</p>
+            <p className="text-gray-200 text-xl">Categories</p>
           </div>
         </div>
 
         <div
           className="relative h-48 bg-cover bg-center bg-no-repeat shadow-md rounded-lg p-6 text-center"
-          style={{ backgroundImage: `url(${imageUrl})` }}
+          style={{ backgroundImage: `url(${foodImg})` }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
           <div className="relative z-10 flex items-center flex-col h-full justify-center">
-            <p className="text-3xl font-bold text-white">6</p>
-            <p className="text-gray-200">Foods</p>
+            <p className="text-4xl font-bold text-white">4</p>
+            <p className="text-gray-200 text-xl">Foods</p>
           </div>
         </div>
 
         <div
           className="relative h-48 bg-cover bg-center bg-no-repeat shadow-md rounded-lg p-6 text-center"
-          style={{ backgroundImage: `url(${imageUrl})` }}
+          style={{ backgroundImage: `url(${restaurant2})` }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
           <div className="relative z-10 flex items-center flex-col h-full justify-center">
-            <p className="text-3xl font-bold text-white">14</p>
-            <p className="text-gray-200">Total Orders</p>
+            <p className="text-4xl font-bold text-white">1</p>
+            <p className="text-gray-200 text-xl">Total Orders</p>
           </div>
         </div>
 
         <div
           className="relative h-48 bg-cover bg-center bg-no-repeat shadow-md rounded-lg p-6 text-center"
-          style={{ backgroundImage: `url(${imageUrl})` }}
+          style={{ backgroundImage: `url(${image})` }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg"></div>
+          <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
           <div className="relative z-10 flex items-center flex-col h-full justify-center">
-            <p className="text-3xl font-bold text-green-400">$80.00</p>
-            <p className="text-gray-200">Revenue Generated</p>
+            <p className="text-4xl font-bold text-green-400">$10.99</p>
+            <p className="text-gray-200 text-xl">Revenue Generated</p>
           </div>
         </div>
       </div>

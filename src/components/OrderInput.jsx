@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "../images/nusa_penida.jpg";
+import Image from "../images/pizza.jpg";
 
 const OrderInput = () => {
   const [formData, setFormData] = useState({
@@ -41,7 +41,7 @@ const OrderInput = () => {
           </div>
           <div className="w-2/3">
             <div className="text-xl font-semibold">Pizza</div>
-            <div className="text-lg font-semibold my-2">$16.00</div>
+            <div className="text-lg font-semibold my-2">$10.99</div>
             <label>Quantity:</label>
             <input
               type="number"

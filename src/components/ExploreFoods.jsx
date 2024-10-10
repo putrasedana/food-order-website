@@ -1,12 +1,15 @@
 import React from "react";
 import FoodCategoryCard from "./FoodCategoryCard";
-import fruitsImage from "../images/nusa_penida.jpg";
+import pasta from "../images/spagetti.jpg";
+import burger from "../images/big-burger.jpg";
+import beverage from "../images/beverage.jpg";
+import pizza from "../images/pizza-2.jpg";
 
 const categories = [
-  { name: "Fruits", imageUrl: fruitsImage },
-  { name: "Vegetables", imageUrl: fruitsImage },
-  { name: "Beverages", imageUrl: fruitsImage },
-  { name: "Snacks", imageUrl: fruitsImage },
+  { name: "Pasta", imageUrl: pasta },
+  { name: "Burger", imageUrl: burger },
+  { name: "Beverages", imageUrl: beverage },
+  { name: "Pizza", imageUrl: pizza },
 ];
 
 const ExploreFoods = () => {

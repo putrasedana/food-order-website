@@ -1,6 +1,9 @@
 import React from "react";
 import FoodTable from "../components/FoodTable";
-import img from "../images/nusa_penida.jpg";
+import pizza from "../images/pizza.jpg";
+import pizza2 from "../images/pizza-2.jpg";
+import spaghetti from "../images/spagetti.jpg";
+import bigBurger from "../images/big-burger.jpg";
 
 const ManageorderPage = () => {
   const foods = [
@@ -8,7 +11,7 @@ const ManageorderPage = () => {
       id: 1,
       title: "Margherita Pizza",
       price: 12.99,
-      image: img,
+      image: pizza2,
       featured: true,
       active: true,
     },
@@ -16,15 +19,23 @@ const ManageorderPage = () => {
       id: 2,
       title: "Big Burger",
       price: 12.99,
-      image: img,
+      image: bigBurger,
       featured: false,
       active: true,
     },
     {
       id: 3,
-      title: "American Salad",
-      price: 12.99,
-      image: img,
+      title: "Carbonara Spaghetti",
+      price: 11.99,
+      image: spaghetti,
+      featured: true,
+      active: false,
+    },
+    {
+      id: 4,
+      title: "Original Pizza",
+      price: 10.99,
+      image: pizza,
       featured: true,
       active: false,
     },

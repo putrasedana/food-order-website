@@ -16,8 +16,8 @@ const FoodCategoryCard = ({ category, imageUrl }) => {
         className="w-full h-48 object-cover rounded-md"
       />
 
-      <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-35 rounded-md">
-        <p className="font-semibold text-lg">{category}</p>
+      <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-40 rounded-md">
+        <p className="font-semibold text-xl mb-4">{category}</p>
       </div>
 
       <button

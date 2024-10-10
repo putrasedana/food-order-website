@@ -1,36 +1,40 @@
 import FoodMenuCard from "./FoodMenuCard";
-import fruitsImage from "../images/nusa_penida.jpg";
+import pizza from "../images/pizza.jpg";
+import spaghetti from "../images/spagetti.jpg";
+import pizza2 from "../images/pizza-2.jpg";
+import bigBurger from "../images/big-burger.jpg";
 
 const menuItems = [
   {
     name: "Spaghetti Carbonara",
-    imageUrl: fruitsImage,
+    imageUrl: spaghetti,
     description: "Delicious spaghetti with creamy carbonara sauce.",
-    price: 12.99,
+    price: 11.99,
     rating: 5,
     category: "Pasta",
   },
   {
-    name: "Spaghetti Carbonara",
-    imageUrl: fruitsImage,
-    description: "Delicious spaghetti with creamy carbonara sauce.",
+    name: "Big Burger",
+    imageUrl: bigBurger,
+    description: "Delicious Big Burger with extra meat, sauce, and vegetables.",
     price: 12.99,
     rating: 4.5,
-    category: "Pasta",
+    category: "Burger",
   },
   {
-    name: "Margherita Pizza",
-    imageUrl: fruitsImage,
-    description: "Classic pizza topped with fresh tomatoes and mozzarella.",
+    name: "Original Pizza",
+    imageUrl: pizza,
+    description: "Original pizza topped with fresh tomatoes and mozzarella.",
     price: 10.99,
     rating: 3,
     category: "Pizza",
   },
   {
     name: "Margherita Pizza",
-    imageUrl: fruitsImage,
-    description: "Classic pizza topped with fresh tomatoes and mozzarella.",
-    price: 10.99,
+    imageUrl: pizza2,
+    description:
+      "Classic pizza topped with fresh tomatoes, mozzarella, and many more.",
+    price: 12.99,
     rating: 2.5,
     category: "Pizza",
   },

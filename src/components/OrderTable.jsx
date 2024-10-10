@@ -16,7 +16,7 @@ const OrderTable = ({ orders: initialOrders }) => {
       order.id === updatedOrder.id ? updatedOrder : order
     );
     setOrders(updatedOrders);
-    setIsModalOpen(false); // Close modal after updating
+    setIsModalOpen(false);
   };
 
   const handleStatusChange = (id, newStatus) => {
@@ -74,9 +74,7 @@ const OrderTable = ({ orders: initialOrders }) => {
             <tr key={order.id} className="hover:bg-gray-50">
               <td className="border-b text-center px-4 py-3">{index + 1}.</td>
               <td className="border-b text-center px-4 py-3">{order.food}</td>
-              <td className="border-b text-center px-4 py-3">
-                ${(order.price + 0).toFixed(2)}
-              </td>
+              <td className="border-b text-center px-4 py-3">${order.price}</td>
               <td className="border-b text-center px-4 py-3">
                 {order.quantity}
               </td>
